@@ -23,7 +23,7 @@ class IntegerListImpTest {
     static Stream<Arguments> argumentsForTests() {
         return Stream.of(Arguments.of(1, 2, 3, 4),
                 Arguments.of(11, 22, 33, 44),
-                Arguments.of(12, 22, 32, 444));
+                Arguments.of(111, 222, 333, 444));
     }
     @ParameterizedTest
     @MethodSource("argumentsForTests")
